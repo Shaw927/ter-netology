@@ -19,19 +19,19 @@ resource "random_password" "random_string" {
   min_numeric = 1
 }
 
-/*
-resource "docker_image" {
+
+resource "docker_image" "nginx" {   #тут надо было написать что за имедж именно
   name         = "nginx:latest"
   keep_locally = true
 }
 
-resource "docker_container" "1nginx" {
+resource "docker_container" "nginx" { # Тут было не верное имя, потому что начиналось с цифры, а это нельзя
   image = docker_image.nginx.image_id
-  name  = "example_${random_password.random_string_FAKE.resulT}"
+  name  = "hello_world" # тут был FAKE в конце ресурса, то есть такого ресурса нет и атрибут result был написан неправильно
 
   ports {
     internal = 80
     external = 9090
   }
 }
-*/
+
