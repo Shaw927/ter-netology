@@ -1,3 +1,5 @@
+Задание 1
+
 <img width="1258" height="1251" alt="image" src="https://github.com/user-attachments/assets/bd28f464-f425-4f1d-bdbe-82a5df81d324" />
 
 <img width="1267" height="1022" alt="image" src="https://github.com/user-attachments/assets/2b734619-4da5-4017-b3b8-c11a54af8377" />
@@ -11,3 +13,6 @@
 <img width="1213" height="1202" alt="image" src="https://github.com/user-attachments/assets/8b3e9d8b-baec-438d-bf99-828d6b23ac3e" />
 
 <img width="1260" height="639" alt="image" src="https://github.com/user-attachments/assets/4e2eac23-ecc4-4f21-9682-12276eef32a2" />
+
+Задание 2
+
