@@ -15,4 +15,4 @@
 <img width="1260" height="639" alt="image" src="https://github.com/user-attachments/assets/4e2eac23-ecc4-4f21-9682-12276eef32a2" />
 
 Задание 2
-
+находится в поддиректории remote_docker
