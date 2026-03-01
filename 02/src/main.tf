@@ -47,7 +47,7 @@ resource "yandex_compute_instance" "platform" {
 
 }
 
-resource "yandex_compute_instance" "db1" {
+resource "yandex_compute_instance" "db" {
   name        = var.vm_db_name
   platform_id = var.vm_db_platform_id
   zone = var.vm_db_zone
