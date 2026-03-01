@@ -127,3 +127,14 @@ variable "db_cidr" {
   default = ["10.0.2.0/24"]
   description = "подсеть отличная от нашей дефолтной"
 }
+
+variable "env" {
+  type    = string
+  default = "develop"
+}
+
+variable "project" {
+  type    = string
+  default = "platform"
+}
+
