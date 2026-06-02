@@ -30,3 +30,45 @@ variable "vpc_name" {
   default     = "develop"
   description = "VPC network&subnet name"
 }
+
+### Virtual Machines ###
+
+variable "web_cores" {
+  type = number
+  description = "How many cores use VM"
+}
+
+variable "web_memory" {
+  type = number
+  description = "How many RAM use VM"
+}
+
+variable "preemptible" {
+  type = bool
+  description = "for economy payment"
+}
+
+variable "web_image_id" {
+  type = string
+  description = "What's the image be used"
+}
+
+variable "web_disk_size" {
+  type = number
+  description = "How many disk size be used"
+}
+
+variable "core_fraction" {
+  type = number
+  description = "core fraction VM"
+}
+
+variable "each_vm" {
+  type = list(object({
+    vm_name = string
+    cpu = number
+    ram = number
+    disk_volume = number
+  }))
+}
+
