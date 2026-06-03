@@ -1,0 +1,7 @@
+---
+- name: Pingulya
+  hosts: all
+  gather_facts: false
+  tasks:
+    - name: команда ping
+      ansible.builtin.ping:
