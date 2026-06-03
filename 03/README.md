@@ -22,7 +22,7 @@
 <img width="1276" height="443" alt="image" src="https://github.com/user-attachments/assets/e36a1a92-cd14-436f-be52-f9c3a2719edc" />
 
 # 8
-лишний пробел и пропущена скобка
+лишний пробел и неправильная поставлена скобка }
 
 [webservers]
 %{~ for i in webservers ~}
